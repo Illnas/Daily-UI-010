@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #b3b3b3;
+}
+
+.container-icon {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.container-icon h1 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.container-icon img {
+  border-radius: 5px;
+  width: 80px;
+  height: 80px;
+}
+/*# sourceMappingURL=main.css.map */
